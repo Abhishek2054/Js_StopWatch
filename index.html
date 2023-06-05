@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stopwatch || Abhishek Mishra</title>
+</head>
+<body>
+    <!-- this is the main container -->
+    <div class="container">
+
+        <div class="title">
+            <!-- title/heading -->
+            <h1 class="heading">STOPWATCH</h1>
+            
+            <!-- I have added subtitle just for to know people that what tech is used -->
+            <h3 class="subtitle">Using HTML, CSS and JS</h3>
+        </div>
+
+        <!-- watch timer -->
+        <div class="timer">     
+            <h4 id="sec">00</h4><span>:</span><h4 id="tens">00</h4>
+        </div>
+
+        <!-- div for buttons so that I can style it easily -->
+        <div class="btns">
+            <!-- start button -->
+            <button class="btn" id="start_btn">Start</button>
+            
+            <!-- Stop button -->
+            <button class="btn" id="stop_btn">Stop</button>
+            
+            <!-- reset button -->
+            <button class="btn" id="reset_btn">Reset</button>
+            
+            <!-- Our external JS file -->
+            <script src="index.js"></script>
+        </div>
+
+    </div>
+</body>
+</html>
